@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para las tarjetas de menú */
+.menu-card {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.menu-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Estilos para los elementos de productos */
+.burger-item,
+.dog-item,
+.drink-item,
+.meal-item {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.burger-item:hover,
+.dog-item:hover,
+.drink-item:hover,
+.meal-item:hover {
+  transform: translateY(-2px);
+}
+
+/* Estilos para el contenedor de presentación */
+.presentation-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.welcome-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+/* Estilos para los contenedores de productos */
+.burgers-container,
+.dogs-container,
+.drinks-container,
+.extra-meals-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.burgers-card,
+.dogs-card,
+.drinks-card,
+.extra-meals-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el drawer */
+.q-drawer {
+  background: #f5f5f5;
+}
+
+.q-drawer .q-btn {
+  margin: 8px;
+  border-radius: 8px;
+}
+
+/* Estilos para el header y footer */
+.q-header,
+.q-footer {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
