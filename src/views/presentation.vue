@@ -1,7 +1,7 @@
 <template>
   <Header/>
 <carrusel/>
-<Tags/>
+<Tags/>     
 <!-- Historia del negocio - Integración directa -->
     <div class="history-container q-px-md q-py-xl bg-grey-2">
       <div class="text-center q-mb-xl">
