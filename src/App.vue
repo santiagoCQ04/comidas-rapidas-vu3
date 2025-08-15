@@ -5,7 +5,8 @@
       <router-view />
     </q-page-container>
 
-    <q-footer elevated class="bg-dark text-white">
+    <q-footer reveal elevated
+ class="bg-dark text-white">
       <q-toolbar>
         <q-toolbar-title>
           <div>🍔 Sabores brutales, esencia callejera. Cocina rápida con alma de restaurante.</div>

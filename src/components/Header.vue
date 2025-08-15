@@ -1,6 +1,6 @@
 <!-- src/components/Header.vue -->
 <template>
-  <q-header elevated class="caribe text-white" height-hint="150">
+  <q-header reveal elevated class="caribe text-white" height-hint="150">
     <q-toolbar>
       <q-toolbar-title>
         <div class="titulo-header">
@@ -10,12 +10,7 @@
     </q-toolbar>
 
     <q-tabs align="left">
-      <q-route-tab 
-        v-for="tab in tabs"
-        :key="tab.name"
-        :to="tab.route" 
-        :label="tab.label"
-      />
+      <q-route-tab v-for="tab in tabs" :key="tab.name" :to="tab.route" :label="tab.label" />
     </q-tabs>
   </q-header>
 </template>
@@ -33,7 +28,7 @@ const tabs = [
 <style scoped>
 .caribe {
   background: rgba(25, 46, 56, 0.5);
-  
+
 }
 
 .titulo-header p {

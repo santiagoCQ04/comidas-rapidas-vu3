@@ -23,6 +23,7 @@ const tabs = [
 <style lang="scss">
 .q-tabs {
   border-bottom: 2px solid #FFD700;
+  
 }
 
 .q-tab {

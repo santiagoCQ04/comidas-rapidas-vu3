@@ -87,6 +87,7 @@ const slide = ref('burger')
 
 .contenedor-padre {
   position: relative;
+  top: -100px;
 }
 .food-carousel {
   .q-carousel__slide {

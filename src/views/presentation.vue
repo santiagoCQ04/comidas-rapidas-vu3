@@ -1,4 +1,5 @@
 <template>
+  <Header/>
 <carrusel/>
 <Tags/>
 <!-- Historia del negocio - Integración directa -->
@@ -77,6 +78,6 @@
 </template>
 <script setup>
 import carrusel from '../components/carrusel.vue';
-import Tags from '../components/tags.vue';
+import Header from '../components/Header.vue';
 
 </script>
